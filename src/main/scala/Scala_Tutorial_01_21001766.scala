@@ -21,9 +21,9 @@ object Scala_Tutorial_01_21001766 {
     def discount(c: Double): Double = c * 40 / 100
 
     def sc(c: Int): Double = if (c > 50) {
-      3 + ((c - 50) * 0.75)
+      3.0 + ((c - 50) * 0.75)
     } else {
-      3
+      3.0
     }
 
     def totalcost(c: Int): Double = cost(c) - discount(cost(c)) + sc(c)
